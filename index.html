@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session02</title>
+  <link href="logo-HTML5.svg" rel="icon">
+</head>
+<body >
+<div style="background-color: #f5d28c;margin: 3px ;padding: 25px; ">
+    <h3 style="align-items: center; color: black; margin-bottom: 30px;">PLEASE FILL THE BOXES BELOW</h3>
+  <hr style="height: 1px;background-color: black; margin-bottom: 30px;">
+   <form>
+    <label for="Full Name">Full Name *</label>
+    <input type="text" id="Full Name" name="Full Name" >
+    <br><br>
+    <label for="email">E-mail *</label>
+    <input type="email" id="email" placeholder="ex: myname@gmail.com" name="email" >
+     <br><br>
+    <label for="phone">Recipient Phone Number</label>
+    <input id="phone" type="number" name="phone" >
+     <br><br>
+    <label>Preference * </label>
+    <input type="checkbox" id="check01" name="check" vaule="fill" >
+    <label for="check01">Exchange my current cylinder with a prefilled cylinder</label>
+    
+    <br><br>
+    <div style="margin-left: 83px;">
+       <input type="checkbox" id="check02" name="check" value="refill" >
+    <label for="check02">Pick my cylinder,refill and return it to my location</label>
+    </div>
+   
+     <br><br>
+    <label for="cylinder">My Cylinder Size is *</label>
+   <select id="cylinder" name="select" >
+     <option selected disabled value=""></option>
+      <option >12 kg</option>
+      <option >15 kg</option>
+      <option >45 kg</option>
+   </select>
+   <br><br>
+   <label for="quantity">Quantity Required *</label>
+   <input type="number" id=" quantity" name="quantity"  >
+   <br><br>
+   <label for="amount">AMOUNT DUE</label>
+   <input id="amount" type="number" name="amount" >
+   <br><br>
+   <label for="text" ">Delivery Address (Please include nearst landmarks) *</label>
+   <textarea id="text" rows="2" cols="30" ></textarea>
+   <br><br>
+   <button style="background-color: red; border-color: red; padding: 5px;">
+    Place Order
+   </button>
+</form>
+</div>
+  
+</body>
+</html>
+
